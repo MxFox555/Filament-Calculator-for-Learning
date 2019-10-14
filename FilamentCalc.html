@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<body>
+<link rel="stylesheet" href="FilamentCalc.css">
+<h2>Print cost calculator</h2>
+<script src="FilamentCalc.js"></script>
+<table>
+  <tr>
+    <th>Type</th>
+    <th>Amount(g)</th>
+    <th>Total</th>
+  </tr>
+  <tr>
+    <td>
+    	<select id="filswitch">
+  			<option value="PLA">PLA</option>
+  			<option value="ABS">ABS</option>
+  			<option value="PLA2">PLA+</option>
+  			<option value="PETG">PETG</option>
+	</select>
+    </td>
+    <td>
+    	<input id="input" type="number" value="0"></input>
+    </td>
+    <td>$
+    	<output id="output">
+        </output>
+    </td>
+  </tr>
+</table>
+<button id="calcbutton" onclick="FilamentCalc()">
+calculate
+</button>
+
+</body>
+</html>

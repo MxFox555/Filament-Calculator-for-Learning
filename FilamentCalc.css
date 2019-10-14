@@ -1,0 +1,40 @@
+h2{
+    font-family: sans-serif;
+}
+#calcbutton {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 20px;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+table{
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+tr{
+    background-color: #f5f5f5;
+}
+h2:hover{
+    color: blue;
+    font-size: 25px;
+    transition: font-size, .2s;
+}
+#filswitch{
+    padding: 15px 20px;
+    font-weight: bold;
+}
+#filswitch:hover{
+    color: blue;
+    transition: color, 2s;
+}
+#input{
+    padding: 10px 10px;
+    font-size: 20px;
+    text-align: center;
+}
